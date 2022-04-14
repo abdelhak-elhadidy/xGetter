@@ -7,14 +7,14 @@ I change something to comply with Google play policy.
 # xGetter Library for Android!  
 [![](https://jitpack.io/v/KhunHtetzNaing/XGetter.svg)](https://jitpack.io/#KhunHtetzNaing/XGetter)  
 
-ရုပ်ရှင်နဲ့ Video App ဖန်တီးချင်သူတွေအနေနဲ့  
-အသုံးဝင်မယ့် Library လေးပါ။   
-ကြော်ငြာကြည့်စရာမလိုပဲ  
-တိုက်ရိုက်ဒေါင်းဖို့လင့်ဆွဲထုတ်ပေးနိုင်ပြီး
-ရလာတဲ့လင့်ကို တိုက်ရိုက်ဒေါင်းမလား  
-ကိုယ်ပိုင် Player နဲ့တိုက်ရိုက်ပြမလား  
-အဆင်ပြေသလိုအသုံးချနိုင်ပါတယ်။  
-လောလာဆယ်ပါဝင်တဲ့ Site တွေကတော့  
+For those who want to create a movie and video app
+This is a useful library.
+No need to look at ads
+You can download the link to download it directly
+Will you download the link directly?
+Show live with your own player?
+You can use it as you see fit.
+Currently ten sites are:
   
  - **1. Google Drive**  
  - **2. DailyMotion**  
@@ -51,15 +51,15 @@ I change something to comply with Google play policy.
 - **30. Vudeo**
   
   
-တို့ပဲဖြစ်ပါတယ်။  
-ဒီဆိုဒ်တွေအားလုံးကနေ ကြော်ငြာကြည့်စရာမလိုပဲတိုက်ရိုက်လင့်ထုတ်ပေးမှာပါ။  
-အခြားအခမဲ့ Video တင်လို့ရတဲ့ Site တွေကိုလည်းထပ်ဖြည့်ပေးသွားပါ့မယ် :)  
-အဲ့တော့ Video Sharing App အတွက် Host ဝယ်စရာမလိုတော့ဘူးလေနော် ;)  
+We are the only ones.
+All of these sites provide direct links to ads without the need to view ads.
+We will add other free video uploading sites :)
+So you do not need to buy a host for the Video Sharing App;)
   
-အသုံးပြုနည်း  
-===========  
+How to use
+===========
   
-ပထမဦးဆုံး **build.gradle(project)** ထဲက  
+From the first ** build.gradle (project) **
   
 
     allprojects {
@@ -69,30 +69,29 @@ I change something to comply with Google play policy.
             maven { url "https://jitpack.io" }  //Add this
      }}
 
-ပြီးရင် **build.gradle(app)** ထဲက  
+Then **build.gradle(app)** Out of 
   
 
     dependencies {  
     	implementation 'com.github.KhunHtetzNaing:xGetter:3.0'
     }
 
-**Android Studio** သမားတွေဆိုရင်တော့ **Sync Now** လုပ်ပေးပါ။  
-**AIDE** သမားဆိုရင်တော့ **Save** ပြီး **Download** လုပ်ခိုင်းရင်လုပ်ပေးပါ။  
-**မှတ်ချက်။ ။အင်တာနက်ဖွင့်ထားဖို့လိုပါမယ်**  
+For Android Studio users, please Sync Now **.
+If you are an AIDE user, please save and download.
+**Note. You need to have internet enabled **
   
-  If not working [download this jar](https://github.com/KhunHtetzNaing/xGetter/raw/master/app/release/xgetter.jar) file and put to **YourProject/app/libs/**
+   If not working [download this jar] (https://github.com/KhunHtetzNaing/xGetter/raw/master/app/release/xgetter.jar) file and put to ** YourProject / app / libs / **
   
-**AndroidManifest.xml** ထဲမှာ  
+In ** AndroidManifest.xml **
   
 
      <application .....
 	     android:usesCleartextTraffic="true">
 
   
- 
-ထည့်ပေးဖို့လိုပါမယ်။  
+You need to add
   
-ပြီးရင်တော့ကိုယ်ခေါ်ချင်တဲ့ Activity ကနေ  
+Then from the Activity you want to call
 
     LowCostVideo xGetter = new LowCostVideo(this);  
     xGetter.onFinish(new LowCostVideo.OnTaskCompleted() {  
@@ -114,9 +113,9 @@ I change something to comply with Google play policy.
       }  
     });
 
-## IMPORTANT  
-Okhttp3 ကိုအသုံးပြုထားသည့်အတွက်  
-**proguard-rules.pro** ထည့်ပေးရန်လိုအပ်ပါသည်။  
+## IMPORTANT
+Because Okhttp3 is used
+** proguard-rules.pro ** is required.
   
 
       # JSR 305 annotations are for embedding nullability information.  
@@ -131,9 +130,3 @@ Okhttp3 ကိုအသုံးပြုထားသည့်အတွက်
     # OkHttp platform used only on JVM and when Conscrypt dependency is available.  
     -dontwarn okhttp3.internal.platform.ConscryptPlatform
 
-  
-အသုံးပြုရတာလည်းလွယ်ပါတယ် :)  
-- Example APK => https://bit.ly/3bZ2GHX
-- Example Project => http://bit.ly/2Sr6Hiw  
-- Repo => https://github.com/KhunHtetzNaing/xGetter  
-#HtetzNaing #XGetter #2019
