@@ -39,7 +39,7 @@ Currently ten sites are:
  - **21. CocoScope**  
  - **22. VidBM**
  
-## New supported sites [3.0]
+## New supported sites [1.0]
 
 - **23. Vlare**
 - **24. pStream**
