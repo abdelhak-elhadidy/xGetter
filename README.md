@@ -1,4 +1,4 @@
-# xGetter => LowCostVideo [3.0]
+# xGetter => LowCostVideo [1.0]
 I change something to comply with Google play policy.
 - Remove external javascript file
 - Change the class name to LowCostVideo
@@ -118,7 +118,7 @@ Because Okhttp3 is used
 ** proguard-rules.pro ** is required.
   
 
-      # JSR 305 annotations are for embedding nullability information.  
+    # JSR 305 annotations are for embedding nullability information.  
     -dontwarn javax.annotation.**  
       
     # A resource is loaded with a relative path so the package of this class must be preserved.  
