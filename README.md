@@ -5,7 +5,7 @@ I change something to comply with Google play policy.
 - Rewrite codes
 
 # xGetter Library for Android!  
-[![](https://jitpack.io/v/KhunHtetzNaing/XGetter.svg)](https://jitpack.io/#KhunHtetzNaing/XGetter)  
+[![](https://jitpack.io/v/apdelhaktarek/VxGetter.svg)](https://jitpack.io/#apdelhaktarek/VxGetter)
 
 For those who want to create a movie and video app
 This is a useful library.
