@@ -73,14 +73,14 @@ Then **build.gradle(app)** Out of
   
 
     dependencies {  
-    	implementation 'com.github.KhunHtetzNaing:xGetter:3.0'
+    	implementation 'com.github.apdelhaktarek:xGetter:1.0'
     }
 
 For Android Studio users, please Sync Now **.
 If you are an AIDE user, please save and download.
 **Note. You need to have internet enabled **
   
-   If not working [download this jar] (https://github.com/KhunHtetzNaing/xGetter/raw/master/app/release/xgetter.jar) file and put to ** YourProject / app / libs / **
+**
   
 In ** AndroidManifest.xml **
   
